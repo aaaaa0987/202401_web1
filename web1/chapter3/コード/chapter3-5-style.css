@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+header {
+    background-color: black;
+    color : white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between; /*display: flex;に指定したものに対して使える（space-betweenのほかにもstart, centerなどがある）*/
+}
+
+ul {
+    display:flex;
+    list-style: none;
+}
+
+a {
+    color:white;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+/* セレクタ:hover マウスカーソルが当たった状態のスタイル */
+a:hover {
+    background-color:darkolivegreen;
+}

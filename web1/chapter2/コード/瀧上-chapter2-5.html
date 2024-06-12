@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="お問い合わせ">
+    <title>お問い合わせ</title>
+</head>
+<body>
+    <header>
+        <h1>お問い合わせ</h1>
+    </header>
+    <main>
+        <h3>よくある質問</h3>
+        <ul>
+            <li>クマが仕事しているってホント？</li>
+            <li>インターネットがつながらない</li>
+        </ul>
+        <h3>対応時間</h3>
+        <table border="0">
+            <tr>
+                <th>担当者</th>
+                <th>時間</th>
+                <th>定休日</th>
+            </tr>
+            <tr>
+                <td>くまの</td>
+                <td>10:00-18:00</td>
+                <td>月・水・金</td>
+            </tr>
+            <tr>
+                <td>くまがい</td>
+                <td>13:00-20:00</td>
+                <td>火・木</td>
+            </tr>
+        </table>
+        <h3>お問い合わせフォーム</h3>
+        <form action="送信先" method="転送方法" name="このフォームを識別するための名前">
+            <label for="customer">お客様の名前：</label>
+            <input type="text" name="customer" id="customer" placeholder="山田">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+            <label for="message">お問い合わせ内容：</label>
+            <br>
+            <textarea id="message" name="message" rows="4"></textarea> 
+            <br><br>
+            <button type="submit">送信</button>
+        </form>
+        <img src="img/img01.jpg" alt="クマちゃんの画像">
+    </main>
+    <footer>
+        <br>
+        <a href="https://yoshida-jobi.jp/" target="_blank">弊社のホームページ</a>
+    </footer>
+</body>
+</html>

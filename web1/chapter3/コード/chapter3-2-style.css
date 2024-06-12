@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+p {
+    background-color: red;
+    margin: 30px;
+}
+
+h3 {
+    background-color: aqua;
+    padding: 30px;
+}
+
+div {
+    background-color: green;
+    height: 100px;
+    /* margin: 上 右 下 左 */
+    margin: 10px 30px 20px 40px;
+    /* margin: 上下 左右 */
+    margin: 10px 20px;
+    /* margin-方向: 値 */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* paddingも同様 */
+
+}
+.auto {
+    width: 100px;
+    /* margin, paddingは数値以外にもautoも設定可能 */
+    margin: auto;
+}

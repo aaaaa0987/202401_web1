@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+header {
+    color: #144da0;
+    display: flex;
+    justify-content: space-between;
+    background-image: url('images/banneer_img.jpg');
+    background-size: cover;
+    padding: 20px;
+}
+
+.page-title {
+    font-size: 40px;
+}
+
+.menu {
+    margin: auto 0px;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+}
+
+.link li {
+    list-style: none;
+}
+
+.link li a {
+    color: #144da0;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+.main-content {
+    display: flex;
+    padding: 15px;
+}
+
+.sub-title {
+    color: #144da0;
+    font-size: 26px;
+}
+
+.text-description {
+    font-size: 20px;
+}
+
+.color-container {
+    background-color: #70acce;
+    border-radius: 15px;
+    padding: 20px 0px;
+    font-size: 15px;
+}
+
+.text-white {
+    color: white;
+    text-align: center;
+    font-size: 23px;
+}
+
+.img-container {
+    padding: 10px;
+}
+
+.img-low {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+.product {
+    width: 30%;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+
+.form-title {
+    padding: 15px;
+    font-size: 17px;
+}
+
+.form-content {
+    background-color: #E5E7E9;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 17px;
+}
+
+.question {
+    width: 100%;
+    margin: 30px;
+    padding: 0px 10px;
+}
+
+.input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px;
+    border: 1px solid #F2F3F4;
+    border-radius: 10px;
+}
+
+.submitButton {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
+.content-left {
+    width: 80%;
+    margin: 15px;
+}
+
+.content-right {
+    width: 20%;
+    margin-left: 25px;
+}
+
+.news-text {
+    color: grey;
+}
+
+.twitter-timeline {
+    width: auto;
+}
+
+footer {
+    text-align: center;
+    background-image: url('images/banneer_img.jpg');
+    background-size: cover;
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-flow: column;
+        text-align: center;
+    }
+
+    .page-title {
+        font-size: 30px;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .link {
+        flex-flow: column;
+        text-align: center;
+        padding: 0px;
+        font-size: 20px;
+    }
+
+    .link li {
+        padding: 10px 0px;
+    }
+
+    .main-content {
+        flex-flow: column;
+        
+    }
+
+    .content-left {
+        width: 100%;
+        margin: 0;
+    }
+
+    .form-content {
+        padding: 15px;
+        margin: 20px;
+    }
+
+    .content-right {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .question {
+        margin: 15px 0px;
+        padding: 10px 0px;
+    }
+}

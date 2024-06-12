@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+header {
+    background-color: #B2EBF2;
+    text-align: center;
+}
+
+main {
+    background-color: antiquewhite;
+}
+
+footer {
+    background-color: rgb(127, 255, 212);
+    text-align: center;
+}
+
+h3 {
+    color: red;
+}
+
+ul {
+    list-style-type: square;
+}
+
+button {
+    background-color: aqua;
+    border-radius: 10px;
+}

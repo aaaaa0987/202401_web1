@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 1px solid green;
+}
+
+/* 600px以下に適応されるCSS */
+@media screen and (max-width: 600px) {
+    .container {
+        flex-flow: column; /* flexboxの要素を縦に */
+    }
+    .item {
+        background-color: indianred;
+    }
+}

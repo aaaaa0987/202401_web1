@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+header {
+    background-color: black;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+}
+
+a:hover {
+    background-color:#FCE4EC;
+    color: black;
+}
+
+.title1 {
+    background-color:#FCE4EC;
+    text-align: center;
+    border: 2px solid #F8BBD0;
+    margin: 5px;
+    padding: 10px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.container1 {
+    text-align: center;
+    display: flex;
+    justify-content: center; /* 子要素(.product)を中央寄せ */
+}
+
+.product {
+    background-color: #FCE4EC;
+    padding: 10px;
+    margin:10px 10px;
+    border:1px solid #F8BBD0;
+    border-radius: 10px;
+}
+
+p, a {
+    font-size: 12px;
+}
+
+img {
+    width:200px;
+}
+
+footer {
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+/* お問い合わせページ用CSS */
+
+h2 {
+    text-align: center;
+}
+
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+h5 {
+    text-align: center;
+}
+
+.contact-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.contact {
+    background-color: #FCE4EC;
+    padding: 10px;
+    margin:10px 10px;
+    border:1px solid #B7F2EC;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #F49AB9;
+    color: white;
+    border-radius: 25px;
+    border-color: white;
+}

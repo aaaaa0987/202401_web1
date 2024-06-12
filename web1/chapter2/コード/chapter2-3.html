@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="お問い合わせ">
+    <title>お問い合わせ</title>
+</head>
+<body>
+    <h3>お問い合わせフォーム</h3>
+    <form action="送信先" method="転送方法" name="このフォームを識別するための名前">
+        <label for="customer">お客様の名前：</label>
+        <input type="text" name="customer" id="customer" placeholder="山田">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="message">お問い合わせ内容：</label>
+        <br>
+        <textarea id="message" name="message" rows="4"></textarea> 
+        <br>
+        <!-- セレクトボタンとラジオボタン -->
+        <input type="radio" id="contact-tel" name="contact">
+        <label for="contact-tel">電話</label>
+        <input type="radio" id="contact-mail" name="contact">
+        <label for="contact-mail">mail</label>
+        <br>
+        <select id="manager">
+            <option>くまだ</option>
+            <option>くまがい</option>
+        </select>
+        <br>
+        <!-- チェックボックス -->
+        <input type="checkbox" id="day-1" name="day">
+        <label for="day-1">月・水・金</label>
+        <input type="checkbox" id="day-2" name="day">
+        <label for="day-2">火・木</label>
+        <br>
+        <button type="submit">送信</button>
+        <input type="submit" value="送信">
+    </form>
+</body>
+</html>

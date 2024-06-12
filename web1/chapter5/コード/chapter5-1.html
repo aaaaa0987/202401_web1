@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUMAKUMATOWN</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/reset.min.css"/>
+    <link rel="stylesheet" href="chapter5-1-style.css">
+</head>
+<body>
+    <header>
+        <h1 class="page-title">KUMAKUMATOWN</h1>
+        <nav class="menu">
+            <ul class="link">
+                <li><a href="#">会社紹介</a></li>
+                <li><a href="#">商品検索</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main-content">
+            <div class="content-left">
+                <div class="intro">
+                    <h2 class="sub-title">気軽に楽しめるブランドを目指して</h2>
+                    <div class="color-container">
+                        <p class="text-white">トレンドを抑えた新作アイテム</p>
+                        <p class="text-white">快適さとスタイルの両立</p>
+                        <p class="text-white">だれでも楽しめる価格設定</p>
+                    </div>
+                    <p class="text-description">私たちは最新のトレンドを取り入れたカジュアルウェアを豊富に取り揃え、どんなシーンにもピッタリのアイテムをご提供します。<br>リラックスした休日のコーディネートから、カジュアルなオフィススタイルまで、幅広いラインナップであなたの毎日を彩ります。</p>
+                </div>
+                <div class="img-container">
+                    <div class="img-low">
+                        <img class="product" src="images/img01.png">
+                        <img class="product" src="images/img02.png">
+                        <img class="product" src="images/img03.png">
+                    </div>
+                    <div class="img-low">
+                        <img class="product" src="images/img04.png">
+                        <img class="product" src="images/img05.png">
+                        <img class="product" src="images/img06.png">
+                    </div>
+                </div>
+                <div class="color-container">
+                    <p class="form-title">ファッションアンケート</p>
+                    <form class="form-content">
+                        <div class="question">
+                            <p class="question-text">１シーズンに何着服を買いますか？</p>
+                            <input type="radio" name="q1" id="ans1" value="1to5" >
+                            <label for="ans1">1から5</label>
+                            <input type="radio" name="q1" id="ans2" value="5to10" >
+                            <label for="ans2">5から10</label>
+                            <input type="radio" name="q1" id="ans3" value="more" >
+                            <label for="ans3">それ以上</label>
+                        </div>
+                        <div class="question">
+                            <label for="age" class="question-text">年代を教えてください</label>
+                            <select id="age" name="age" class="input">
+                                <option value="10">10代</option>
+                                <option value="20">20代</option>
+                                <option value="30">30代</option>
+                                <option value="40">40代</option>
+                                <option value="50">50代</option>
+                                <option value="60">60代</option>
+                                <option value="70+">70歳以上</option>
+                            </select>
+                        </div>
+                        <div class="question">
+                        <label for="brands" class="question-text">よく買うファッションブランドを教えてください</label>
+                        <input type="text" id="brands" name="brands" class="input">
+                        </div>
+                        <input type="submit" value="送信" class="submitButton"></ipput>
+                    </form>
+                </div>
+            </div>
+            <div class="content-right">
+                <div class="upperright-content">
+                    <h3 class="sub-title">NEWS</h3>
+                    <p class="news-text">2024年春夏コレクションを追加しました</p>
+                    <p class="news-text">価格改定のお知らせ</p>
+                </div>
+                <div class="x-content">
+                    <h3 class="sub-title">最新情報はXから!!</h3>
+                    <a class="twitter-timeline" data-lang="ja" data-height="1000" href="https://twitter.com/XDevelopers?ref_src=twsrc%5Etfw">Tweets by XDevelopers</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <small>&copy;KUMAKUMATOWN</small>
+    </footer>
+</body>
+</html>

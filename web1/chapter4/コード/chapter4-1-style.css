@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.full-screen {
+    /* 背景画像をフルスクリーンで配置 */
+    background-size: cover;
+    /* 背景画像を指定 */
+    background-image: url('images/img01.jpg');
+    /* 最小縦幅の設定 */
+    min-height: 100vh; /* 画面領域全体=100vh */
+}

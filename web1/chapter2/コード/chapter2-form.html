@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <h1>新規会員登録フォーム</h1>
+    </header>
+    <main>
+        <form>
+            <label for="name">名前:</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <label for="email">メールアドレス:</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="password">パスワード:</label>
+            <input type="password" name="password" id="password">
+            <br>
+            <label for="dateOfBirth">生年月日:</label>
+            <input type="date" name="dateOfBirth" id="dateOfBirth">
+            <br>
+            <label for="age">年齢:</label>
+            <input type="number" name="age" id="age">
+            <p>性別:
+            </p>
+            <input type="radio" id="male" name="gender">
+            <label for="male">おとこ</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">おんな</label>
+            <input type="radio" id="none" name="gender">
+            <label for="none">無回答</label>
+            <br>
+            <select id="mailMagazine" name="mailMagazine">
+                <option value="yes">メルマガ希望</option>
+                <option value="no">メルマガ希望しない</option>
+            </select>
+            <br>
+            <button type="submit" style="background-color:white;">登録</button>
+        </form>
+    </main>
+</body>
+</html>

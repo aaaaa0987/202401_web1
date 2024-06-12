@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.container1 {
+    margin: 10px;
+    /* 子要素を横並びにする */
+    display: flex;
+    /* flexboxを中央寄せに */
+    justify-content: center;
+    /* 子要素を逆順に配置 */
+    flex-direction: row-reverse;
+}
+
+.item1 {
+    background-color: gray;
+    color: white;
+    width: 100px;
+}
+
+.container2 {
+    /* 子要素をタイル型に並べる */
+    display: grid;
+    /* タイルの横幅を決める */
+    grid-template-columns: 100px 100px 100px;
+    /* タイルの余白 */
+    gap: 10px;
+}
+
+.item2 {
+    background-color: blue;
+    color: white;
+    width: 100px;
+}

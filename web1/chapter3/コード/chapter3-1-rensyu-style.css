@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+div {
+    background-color:#95F1FC;
+}
+
+p {
+    font-weight: bold;
+    color: #40A77C;
+    border: solid black 1px;
+    /*border-style: solid;
+      border-color: black;*/
+}
+
+ul {
+    color: white;
+    list-style-type: square;
+}
+
+footer {
+    text-align: center;
+}
+
+a {
+    color: #40A77C;
+}
